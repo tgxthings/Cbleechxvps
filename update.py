@@ -56,7 +56,7 @@ try:
     if len(UPSTREAM_BRANCH) == 0:
        raise TypeError
 except:
-    UPSTREAM_BRANCH = 'master'
+    UPSTREAM_BRANCH = 'h-code' #Never Put Heroku Here !!
 
 if UPSTREAM_REPO is not None:
     if ospath.exists('.git'):
