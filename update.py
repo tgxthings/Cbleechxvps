@@ -13,8 +13,8 @@ from subprocess import run as srun
 from requests import get as rget
 from dotenv import load_dotenv
 
-if ospath.exists('FuZionXLogs.txt'):
-    with open('FuZionXLogs.txt', 'r+') as f:
+if ospath.exists('Logs.txt'):
+    with open('Logs.txt', 'r+') as f:
         f.truncate(0)
 
 basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -46,7 +46,7 @@ if environ.get('UPDATE_EVERYTHING_WHEN_RESTART', 'False').lower() == 'true':
 ## Update Packages ----
 
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', "https://github.com/5MysterySD/Tele-LeechX")
-UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', "master")
+UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', "h-code")
 try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
