@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM anasty17/mltb:heroku
 
 RUN mkdir ./app
 RUN chmod 777 ./app
@@ -35,5 +35,7 @@ RUN chmod 0775 /app/gautam/gclone
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
 COPY . .
-RUN chmod +x extract
+
+#RUN chmod +x extract
+
 CMD ["bash","start.sh"]
