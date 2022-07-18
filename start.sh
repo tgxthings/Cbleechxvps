@@ -19,7 +19,7 @@ if [[ -n $RCLONE_CONFIG_URL ]]; then
 fi
 
 if [[ -n $CONFIG_ENV_URL ]]; then
-  echo " Found config.env File 📁📁
+  echo " Found config.env File 📁📁"
 	wget -q $CONFIG_ENV_URL -O /app/config.env
 fi
 
