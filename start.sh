@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#bin #!bash
 # -*- coding: utf-8 -*-
 # Shrimadhav U K | gautamajay52 | MaxxRider | 5MysterySD | Other Contributors 
 #
@@ -20,7 +20,7 @@ fi
 
 if [[ -n $CONFIG_ENV_URL ]]; then
   echo " Found config.env File 📁📁
-  wget -q $CONFIG_ENV_URL -O /app/config.env
+	wget -q $CONFIG_ENV_URL -O /app/config.env
 fi
 
 if [ -f .env ] ; then  set -o allexport; source .env; set +o allexport ; fi
