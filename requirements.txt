@@ -27,4 +27,5 @@ requests
 speedtest-cli
 tgcrypto
 urllib3
+uvloop
 yt-dlp
