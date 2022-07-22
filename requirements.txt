@@ -26,6 +26,6 @@ pybase64
 requests
 speedtest-cli
 tgcrypto
+telegraph
 urllib3
-uvloop
 yt-dlp
