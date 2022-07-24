@@ -18,7 +18,7 @@ if ospath.exists('Logs.txt'):
         f.truncate(0)
 
 basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    handlers=[FileHandler('FuZionXLogs.txt'), StreamHandler()],
+                    handlers=[FileHandler('Logs.txt'), StreamHandler()],
                     level=INFO)
 
 CONFIG_FILE_URL = environ.get('CONFIG_FILE_URL')
