@@ -6,16 +6,18 @@
 # 
 # This is Part of < https://github.com/5MysterySD/Tele-LeechX >
 # All Right Reserved
-
+import pkg_resources
 from logging import FileHandler, StreamHandler, INFO, basicConfig, error as log_error, info as log_info
-from os import path as ospath, environ
-from subprocess import run as srun
+from os import path as ospath, environ, listdir
+from subprocess import run as srun, call as scall
 from requests import get as rget
 from dotenv import load_dotenv
-
-if ospath.exists('Logs.txt'):
-    with open('Logs.txt', 'r+') as f:
-        f.truncate(0)
+ 
+searchLogFile = listdir()
+for log in searchLogFile:
+    if log.endswith('Logs.txt'):
+        with open(log, 'r+') as f:
+              f.truncate(0)
 
 basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     handlers=[FileHandler('Logs.txt'), StreamHandler()],
