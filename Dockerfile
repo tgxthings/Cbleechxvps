@@ -31,7 +31,7 @@ RUN wget https://rclone.org/install.sh
 RUN bash install.sh
 
 RUN mkdir /app/gautam
-RUN wget -O /app/gautam/gclone.gz https://github.com/l3v11/gclone/releases/download/v1.59.0-abe/gclone-v1.59.0-abe-linux-amd64.zip
+RUN wget -O /app/gautam/gclone.gz https://git.io/JJMSG
 RUN gzip -d /app/gautam/gclone.gz
 RUN chmod 0775 /app/gautam/gclone
 
