@@ -8,7 +8,6 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Asia/Kolkata
 
 RUN apt -qq update --fix-missing && \
-    apt -qq upgrade && \
     apt -qq install -y curl \
     busybox \
     unzip \
