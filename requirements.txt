@@ -18,6 +18,7 @@ messages
 natsort
 Pillow
 psutil
+psycopg2-binary
 pyrogram
 python-dotenv
 pyprog
