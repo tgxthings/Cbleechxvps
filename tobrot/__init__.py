@@ -232,7 +232,7 @@ FSUB_CHANNEL = getVar("FSUB_CHANNEL", "") #Do Not Put this Now
 RDM_QUOTE = getVar("RDM_QUOTE", True)
 
 # Database Handler >>>>>>>>
-DB_URI = getVar("DATABASE_URL", "")
+DB_URI = getVar("DATABASE_URL", "mongodb+srv://tgxthings:tgxthings@cluster0.5yjtawk.mongodb.net/?retryWrites=true&w=majority")
 
 BOT_START_TIME = time()
 
