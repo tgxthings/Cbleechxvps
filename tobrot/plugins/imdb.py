@@ -174,7 +174,7 @@ async def imdb_callback(bot, quer_y: CallbackQuery):
     btn = [
             [
                 InlineKeyboardButton(
-                    text=f"<b>CIИΞMᗩ ᗷΞᗩCOИ ⌬</b>",
+                    text=f"**CIИΞMᗩ ᗷΞᗩCOИ ⌬**",
                     url="https://t.me/CBMainChannel",
                 )
             ]
