@@ -218,7 +218,7 @@ DEF_IMDB_TEMPLATE = getVar("IMDB_TEMPLATE", """🎬<b>ᴛɪᴛʟᴇ</b>: <b>{tit
 
 <b>🗒ꜱᴛᴏʀʏ</b>: <code>{plot}</code>
 
-📽️{cast}
+<b>📽️ᴀᴄᴛᴏʀꜱ</b>: {cast}
 
 <b>༺〣 ⬇️❤️JOIN NOW❤️⬇️〣༻</b>
 
