@@ -205,7 +205,7 @@ STRING_SESSION = getVar("STRING_SESSION", "")
 #Bot Command [IMDB]  >>>>>>>>>>>
 CUSTOM_CAPTION = getVar("CUSTOM_CAPTION", "")
 MAX_LIST_ELM = getVar("MAX_LIST_ELM", None)
-DEF_IMDB_TEMPLATE = getVar("IMDB_TEMPLATE", "<a href="{poster}">🎬</a>
+DEF_IMDB_TEMPLATE = getVar("IMDB_TEMPLATE", """<a href="{poster}">🎬</a>
 <b>ᴛɪᴛʟᴇ</b>: <b>{title}</b>
 🎭Also Known As: <a href="{url}"><code>{aka} </code></a> 
 
@@ -223,7 +223,7 @@ DEF_IMDB_TEMPLATE = getVar("IMDB_TEMPLATE", "<a href="{poster}">🎬</a>
 
 <b>༺〣 ⬇️❤️JOIN NOW❤️⬇️〣༻</b>
 
-<b><a href="https://t.me/CBMainChannel">                        Cinema Beacon</a></b>")
+<b><a href="https://t.me/CBMainChannel""">                        Cinema Beacon</a></b>")
 
 #Telegraph Creds  >>>>>>>>>>>
 TGH_AUTHOR = getVar("TGH_AUTHOR ", "Ramanan")
