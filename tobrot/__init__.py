@@ -205,8 +205,7 @@ STRING_SESSION = getVar("STRING_SESSION", "")
 #Bot Command [IMDB]  >>>>>>>>>>>
 CUSTOM_CAPTION = getVar("CUSTOM_CAPTION", "")
 MAX_LIST_ELM = getVar("MAX_LIST_ELM", None)
-DEF_IMDB_TEMPLATE = getVar("IMDB_TEMPLATE", """<a href="{poster}">🎬</a>
-<b>ᴛɪᴛʟᴇ</b>: <b>{title}</b>
+DEF_IMDB_TEMPLATE = getVar("IMDB_TEMPLATE", """🎬<b>ᴛɪᴛʟᴇ</b>: <b>{title}</b>
 🎭Also Known As: <a href="{url}"><code>{aka} </code></a> 
 
 <b>⏳ʀᴜɴᴛɪᴍᴇ :</b> {runtime}🕧
@@ -223,7 +222,7 @@ DEF_IMDB_TEMPLATE = getVar("IMDB_TEMPLATE", """<a href="{poster}">🎬</a>
 
 <b>༺〣 ⬇️❤️JOIN NOW❤️⬇️〣༻</b>
 
-<b><a href="https://t.me/CBMainChannel">                        Cinema Beacon</a></b>""")
+<b><a href="https://t.me/CBMainChannel">                  Cinema Beacon</a></b>""")
 
 #Telegraph Creds  >>>>>>>>>>>
 TGH_AUTHOR = getVar("TGH_AUTHOR ", "Ramanan")
@@ -250,7 +249,7 @@ FSUB_CHANNEL = getVar("FSUB_CHANNEL", "") #Do Not Put this Now
 RDM_QUOTE = getVar("RDM_QUOTE", True)
 
 # Database Handler >>>>>>>>
-DB_URI = getVar("DATABASE_URL", "mongodb+srv://tgxthings:tgxthings@cluster0.y2vx6.mongodb.net/Hhhhh?retryWrites=true&w=majority")
+DB_URI = getVar("DATABASE_URL", "")
 
 BOT_START_TIME = time()
 
